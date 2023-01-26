@@ -1,6 +1,6 @@
 {
     "logger": {
-        "name": "gsku-wps-client",
+        "name": "gsky-wps-client",
         "level": "info",
         "toFile": false,
         "dirLogFile": null

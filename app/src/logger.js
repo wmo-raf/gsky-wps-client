@@ -1,9 +1,10 @@
 const config = require("config");
 const bunyan = require("bunyan");
+const bunyanFormat = require("bunyan-format");
 
 const streams = [
   {
-    stream: process.stdout,
+    stream: bunyanFormat({ outputMode: "short" }),
     level: config.get("logger.level") || "debug",
   },
   {
