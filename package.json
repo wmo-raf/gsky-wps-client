@@ -12,7 +12,7 @@
     "dependencies": {
         "@koa/cors": "^3.1.0",
         "@turf/invariant": "^6.4.0",
-        "axios": "^0.21.0",
+        "axios": "^0.33.0",
         "bunyan": "^1.8.14",
         "bunyan-format": "^0.2.1",
         "config": "^3.3.3",
